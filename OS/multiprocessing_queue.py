@@ -3,14 +3,11 @@ import time
 
 def worker(id, number, q):
     increased_number = 0
-
     for i in range(number):
         increased_number += 1
-    
     q.put(increased_number)
 
     return
-
 
 if __name__ == "__main__":
 
@@ -24,7 +21,6 @@ if __name__ == "__main__":
     th2.start()
     th1.join()
     th2.join()
-
 
     print("--- %s seconds ---" % (time.time() - start_time))
     q.put('exit')
