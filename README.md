@@ -4,7 +4,7 @@
 
 ### OS
 
-* [Semaphore Shared Memory](/OS/Semaphore_shared_memory.py)
-* [Lock](/OS/lock.py)
-* [Multiprocessing Queue](/OS/multiprocessing_queue.py)
-* [Thread](/OS/thread.py)
+* [Semaphore Shared Memory Posting](https://deeppago.tistory.com/52?category=1251617#c5)/[Semaphore Shared Memory Test](/OS/Semaphore_shared_memory.py)
+* [Lock Posting](https://deeppago.tistory.com/52?category=1251617#c4)/[Lock Test](/OS/lock.py)
+* [Multiprocessing Queue Test](/OS/multiprocessing_queue.py)
+* [Thread Posting](https://deeppago.tistory.com/52?category=1251617#c3)/[Thread Test](/OS/thread.py)
